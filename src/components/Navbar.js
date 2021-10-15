@@ -1,3 +1,4 @@
+import { Button } from 'react-bootstrap';
 
 
 
@@ -16,6 +17,9 @@ const Navbar = (props) => {
           <a className="navbar-brand" href="/#">
             {props.titulo}
           </a>
+           <Button 
+            type="primary"
+          />
           <button
             className="navbar-toggler"
             type="button"

@@ -6,7 +6,7 @@ function App() {
     <C.Navbar/>
     <C.Main/>
     <C.Footer/>
-    
+ 
     </div>
   );
 }
