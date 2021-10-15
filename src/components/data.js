@@ -1,4 +1,4 @@
-export let data = [
+const Data = [
     {
       imgenUrl: "https://picsum.photos/id/237/400/300",
       imgenAlt: "perro",
@@ -36,3 +36,5 @@ export let data = [
       btnLabel: "Go somewhere",
     },
   ];
+
+  export default Data

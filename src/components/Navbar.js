@@ -1,4 +1,15 @@
+
+
+
 const Navbar = (props) => {
+
+  const navbarlinks = [
+    { name: "Home"},
+    { name: "About"},
+    { name: "Services"},
+    { name: "contact"}
+  ]
+
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div className="container">
@@ -18,7 +29,7 @@ const Navbar = (props) => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ml-auto">
-            {navbarLinks.map((link, index) => {
+            {navbarlinks.map((link, index) => {
               const { name } = link;
 
               return (

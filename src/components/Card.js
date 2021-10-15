@@ -3,12 +3,10 @@ import React from "react";
 
 function Card(props) {
 
-
     const cardstyle = {
         "width": "100%",
     }
     return (
-
         <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="card" style={cardstyle} >
                 <img src={props.imgenUrl} className="card-img-top" alt={props.imgenAlt} />
@@ -27,9 +25,7 @@ Card.propTypes = {
     title: PropTypes.string,
     cadBody: PropTypes.string,
     btnUrl: PropTypes.string,
-    btnLabel: PropTypes.string,
-
-
+    btnLabel: PropTypes.string
 };
 
 export default Card;
