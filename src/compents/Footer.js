@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="bg-secondary text-center text-light">
             <div className="text-center p-3"  >
                 © 2020 Copyright:
-                <a className="text-light" href="https://mdbootstrap.com/">Kristian.com</a>
+                <a className="text-light" href="https://mdbootstrap.com/">Kristian-James.com</a>
             </div>
         </footer>
     );

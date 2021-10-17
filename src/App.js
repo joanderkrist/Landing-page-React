@@ -4,6 +4,7 @@ import {useEffect, useState} from "react";
 import HeaderBootstrap from "./compents/Header";
 import Footer from "./compents/Footer";
 import Main from "./compents/Main";
+import Cards from "./compents/Cards";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <HeaderBootstrap />
         <Main/>
       <Footer/>
+      <Cards/>
     </>
   );
 }
